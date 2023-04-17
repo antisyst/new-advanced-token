@@ -1,0 +1,763 @@
+:root {
+  --var-color-component-advanced: #ffff;
+  --var-color-component-primary: #000;
+  --var-color-component-third: rgba(0,0,0,.2);
+}
+.m-5 {
+  margin: 5px 0;
+}
+.first-content {
+  font-family: 'General Sans', sans-serif;
+  font-weight: bold;
+  font-size: calc(10px + 6.5vmin);
+  text-align: center;
+  letter-spacing: 0.001rem;
+  color: var(--nextui--navbarBlur);
+}
+br {
+  user-select: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0); 
+}
+
+    // THE END UTILS
+html {
+  user-select: none;
+}
+body {
+  margin: 0;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+ background: url(../assets/peak_background-2.svg);
+  padding: 0;
+  height: max-content;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+    // START NAVBAR
+    .top-navigation-element {
+      width: 100%;
+      position: fixed;
+      z-index: 1000;
+      backdrop-filter: saturate(180%) blur(var(--nextui--navbarBlur));
+      top: 0;
+    }    
+    .nextui-c-PJLV-ijnlmIz-css {
+      color: #ffff;
+    }
+    .top-navigation-element nav {
+      display: flex;
+      flex-direction: row;
+      padding: 6px 5%;
+      z-index: 1000;
+      height: 78px;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(15px);
+      background: rgba(0,0,0,.1);
+    }
+    .extended-router-element {
+      font-family: 'General Sans', sans-serif;
+      text-decoration: none;
+      color: #ffff;
+    }
+    .extended-router-element h3 {
+      color: #fff;
+    }
+    .progress-bar {
+      position: fixed;
+      top: 0;
+      margin-top: 85px;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: var(--var-color-component-advanced);
+      transform-origin: 0%;
+    }
+    
+
+
+
+
+    // THE END NAVBAR
+    // START SHOWCASE
+    .extended-showcase-middle-element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Chillax', sans-serif;
+        justify-content: center;
+        height: 100vh;
+        margin-bottom: 5vh;
+    }
+    .extended-showcase-content h1 {
+      color: var(--nextui--navbarBlur);
+      font-size: calc(10px + 16.5vmin);
+      text-align: left;
+      margin: 0;
+      font-family: 'Chillax', sans-serif;
+      line-height: calc(10px + 7.6rem);
+    }
+    .extended-showcase-content h3 {
+      color: var(--nextui--navbarBlur);
+      font-size: calc(10px + 4.4vmin);
+      padding-left: 7px;
+      margin: 10px 0;
+      text-align: left;
+      font-family: 'General Sans', sans-serif;
+      line-height: calc(10px + 4.5rem);
+    }
+    .extended-showcase-content h3 span {
+      font-family: 'Chillax', sans-serif;
+      font-weight: bold;
+      font-size: calc(10px + 7.5vmin);
+    }
+    .extended-showcase-content h1 b {
+      color: var(--nextui-colors-blue600);
+      
+    }
+    .extended-showcase-content h1 span {
+      text-align: left;
+      color: var(--nextui--navbarBlur);
+      padding-left: 7px;
+      font-size: calc(10px + 4.3vmin);
+      font-family: 'General Sans', sans-serif;
+      text-align: left;
+    }
+    .extended-showcase-content h2 {
+      color: var(--nextui--navbarBlur);
+      line-height: calc(10px + 7.4rem);
+      font-size: calc(10px + 8vmin);
+      margin: 11px 0;
+      text-align: left;
+      padding-left: 7px;
+      font-family: 'General Sans', sans-serif;
+    }
+    .extended-showcase-content h2 span {
+      color: var(--nextui-colors-blue600);
+      font-size: calc(10px + 9vmin);
+    }
+    .extended-showcase-content {
+      color: var(--nextui-colors-white);
+      padding: 1px 6%;
+      text-align: center;
+    }
+
+    // THE END SHOWCASE
+    // START ABOUT
+
+    .first_mvJgtke h1 {
+      color: var(--nextui-colors-white);
+    }
+    .extended-about-element {
+      padding: 10px 8%;
+      margin-bottom: 7vh;
+    }
+    .about-content p {
+        color: var(--nextui-colors-white);
+        font-size: calc(10px + 2.5vmin);
+        line-height: 3.5rem;
+        word-spacing: 0.5rem;
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+    }
+    .about-content p span {
+      font-family: 'General Sans', sans-serif;
+      color: var(--nextui-colors-blue600);
+      font-size: calc(10px + 2.7vmin);
+    }
+      // THE END ABOUT
+      // START SKILLS
+      .extended-skills-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .extended-skills-element {
+        text-align: center;
+        margin-bottom: 6vh;
+      }
+      .skills-element_inline_element {
+        width: 290px;
+        color: var(--nextui-colors-white);
+        height: 290px;
+        text-align: center;
+        display: flex;
+        margin: 6px;
+        flex-direction: column;
+        border: 1.5px solid var(--var-color-component-third);
+        transition: all 0.4s ease-out;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.28);
+        border-radius: 20px;
+      }
+      .skills-element_inline_element:hover {
+        transition: all 0.4s ease-out;
+        border: 1.5px solid var(--nextui-colors-blue600);
+      }
+      .skills-element_inline_element svg {
+        font-size: 140px;
+        color: var(--nextui-colors-blue600);
+      }
+      .skills-element_inline_element h1 {
+        color: var(--nextui-colors-white);
+        font-family: 'Chillax', sans-serif;
+        margin-bottom: 0;
+        margin-top: 15px;
+      }
+
+
+      // THE END SKILLS
+      // START PROJECTS
+      .extended-projects-element {
+        text-align: center;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+      }
+      .projects-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 7%;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .project_item_inline {
+        height: 420px;
+        width: 340px;
+        transition: all 0.4s ease-out;
+        background: rgba(18,18,18,.2);
+        margin: 6px;
+        display: flex;
+        border: 1.4px solid var(--nextui-colors-blue600);
+        border-radius: 12px;
+        flex-direction: column;
+        padding: 14px;
+        align-items: center;
+        justify-content: center;
+      }
+      .project_item_inline:hover {
+        transition: all 0.4s ease-out;
+      }
+      .project_item_inline p {
+        font-family: 'General Sans', sans-serif;
+        color: var(--nextui-colors-white);
+        height: 64px;
+      }
+      .project_item_inline svg {
+        width: 200px;
+        height: 90px;
+      }
+      .tech_stack_project_item {
+        border-bottom: 1.7px solid var(--nextui-colors-blue600);
+        border-top: 1.7px solid var(--nextui-colors-blue600);
+        margin: 7px 0;
+        width: 96%;
+        padding: 1px 0;
+      }
+      .tech_stack_project_item h3 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+        color: var(--nextui-colors-blue600);
+        font-weight: bold;
+      }
+      .visit-content_project {
+        margin-top: 30px;
+      }
+      .visit-content_project a  {
+        width: 330px;
+        font-size: 20px;
+        border-radius: 7px;
+        min-width: 330px;
+        height: 55px;
+        font-size: 21px;
+        font-family: 'Chillax', sans-serif;
+      }
+      .project-extn_router {
+        color: var(--nextui-colors-white);
+        font-family: 'General Sans', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .project-extn_router:hover {
+        text-decoration: underline;
+      }
+      // THE END PROJECTS
+      // START WORKS
+
+      .extended-my-works-element {
+        margin-top: 7vh;
+        margin-bottom: 5vh;
+        text-align: center;
+      }
+      .selected-works_container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 7%;
+        justify-content: center;
+      }
+      .some-works_item {
+        background: rgba(18,18,18,.6);
+        margin: 6px;
+        width: 500px;
+        border-radius: 20px;
+        height: 250px;
+        padding: 10px 20px;
+      }
+      .some-works_item h1 {
+        color: var(--nextui-colors-white);
+        text-align: left;
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+        font-size: 29px;
+        padding-top: 10px;
+      }
+      .some-works_item a {
+        background: var(--nextui-colors-white);
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+        width: 470px;
+        min-width: 470px;
+        height: 60px;
+        min-height: 60px;
+        font-size: 20px;
+        border-radius: 10px;
+        color: var(--var-color-component-primary);
+      }
+      .some-works_item h3 {
+        color: var(--nextui-colors-blue600);
+        text-align: center;
+        font-size: 30px;
+        font-family: 'General Sans', sans-serif;
+      }
+      .some-works_item h1 svg {
+        vertical-align: middle;
+        font-size: 50px;
+        margin-top: -6px;
+        color: var(--nextui-colors-blue600);
+        padding-right: 15px;
+      }
+     
+
+      // THE END WORKS
+      // FOOTER START
+      .extended-last-footer-element {
+        margin-top: 8vh;
+        text-align: center;
+      }
+      .extended-last-footer-element a {
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        padding: 10px 28px;
+        margin-bottom: 5vh;
+        min-width: 200px;
+        width: 200px;
+        min-height: 65px;
+        height: 65px;
+      }
+      .extended-last-footer-element h1 {
+        margin: 1px 0;
+      }
+      .footer-prototype-content {
+        padding: 10px 13%;
+      }
+      .footer-prototype-content p {
+        color: var(--nextui-colors-white);
+        text-align: center;
+        font-size: 25px;
+        font-family: 'General Sans', sans-serif;
+      }
+      .creator-content_lastchild {
+        padding-top: 1vh;
+        color: var(--nextui-colors-white);
+        font-family: 'General Sans', sans-serif;
+        border-top: 1.2px solid var(--nextui-colors-white);
+      }
+      .creator-content_lastchild h2 {
+        color: var(--nextui-colors-white);
+        font-family: 'General Sans', sans-serif;
+      }
+      .creator-content_lastchild h2 span {
+        font-weight: bold;
+        color: var(--nextui-colors-blue600);
+        font-size: 28px;
+      }
+      .creator-content_lastchild h3 {
+        font-family: 'General Sans', sans-serif;
+        color: var(--nextui-colors-white);
+        font-size: 20px;
+      }
+
+
+      // THE END FOOTER
+
+      @media only screen and (max-width: 768px) {
+          // START NAVBAR
+    .top-navigation-element {
+      width: 100%;
+      position: fixed;
+      z-index: 1000;
+      backdrop-filter: saturate(180%) blur(var(--nextui--navbarBlur));
+      top: 0;
+    }    
+    .nextui-c-PJLV-ijnlmIz-css {
+      color: #ffff;
+    }
+    .top-navigation-element nav {
+      display: flex;
+      flex-direction: row;
+      padding: 6px 5%;
+      z-index: 1000;
+      height: 70px;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(11px);
+      background: rgba(0,0,0,.1);
+    }
+    .top-navigation-element nav svg {
+      width: 68px;
+      height: 60px;
+    }
+    .extended-router-element {
+      font-family: 'General Sans', sans-serif;
+      text-decoration: none;
+      color: #ffff;
+    }
+    .extended-router-element h3 {
+      color: #fff;
+    }
+    .progress-bar {
+      position: fixed;
+      top: 0;
+      margin-top: 76px;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: var(--var-color-component-advanced);
+      transform-origin: 0%;
+    }
+    
+
+
+
+
+    // THE END NAVBAR
+        a {
+          cursor: none;
+        }
+        .first-content {
+          font-family: 'General Sans', sans-serif;
+          font-weight: bold;
+          font-size: calc(10px + 7.2vmin);
+          text-align: center;
+          letter-spacing: 0.001rem;
+          color: var(--nextui--navbarBlur);
+        }
+        // THE END UTILS
+        // START SHOWCASE
+    .extended-showcase-middle-element {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Chillax', sans-serif;
+      justify-content: center;
+      height: 108vh;
+      margin-bottom: 5vh;
+  }
+  .extended-showcase-content h1 {
+    color: var(--nextui--navbarBlur);
+    font-size: calc(10px + 16.5vmin);
+    text-align: left;
+    margin: 0;
+    font-family: 'Chillax', sans-serif;
+    line-height: 5.5rem;
+  }
+  .extended-showcase-content h3 {
+    color: var(--nextui--navbarBlur);
+    font-size: calc(10px + 4.4vmin);
+    padding-left: 7px;
+    margin: 10px 0;
+    text-align: left;
+    font-family: 'General Sans', sans-serif;
+    line-height: 2.6rem;
+  }
+  .extended-showcase-content h3 span {
+    font-family: 'Chillax', sans-serif;
+    font-weight: bold;
+    font-size: calc(10px + 7.5vmin);
+  }
+  .extended-showcase-content h1 b {
+    color: var(--nextui-colors-blue600);
+    
+  }
+  .extended-showcase-content h1 span {
+    text-align: left;
+    color: var(--nextui--navbarBlur);
+    padding-left: 7px;
+    font-size: calc(10px + 5vmin);
+    font-family: 'General Sans', sans-serif;
+    text-align: left;
+  }
+  .extended-showcase-content h2 {
+    color: var(--nextui--navbarBlur);
+    line-height: 4rem;
+    font-size: calc(10px + 8vmin);
+    margin: 11px 0;
+    text-align: left;
+    padding-left: 7px;
+    font-family: 'General Sans', sans-serif;
+  }
+  .extended-showcase-content h2 span {
+    color: var(--nextui-colors-blue600);
+    font-size: calc(10px + 9vmin);
+  }
+  .extended-showcase-content {
+    color: var(--nextui-colors-white);
+    padding: 1px 6%;
+    text-align: center;
+  }
+     // START ABOUT
+
+     .first_mvJgtke h1 {
+      color: var(--nextui-colors-white);
+    }
+    .extended-about-element {
+      padding: 10px 4%;
+      margin-bottom: 7vh;
+    }
+    .about-content p {
+        color: var(--nextui-colors-white);
+        font-size: calc(10px + 3.5vmin);
+        line-height: 2.2rem;
+        word-spacing: 0.26rem;
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+    }
+    .about-content p span {
+      font-family: 'General Sans', sans-serif;
+      color: var(--nextui-colors-blue600);
+      font-size: calc(10px + 3.7vmin);
+    }
+      // THE END ABOUT
+       // START PROJECTS
+       .extended-projects-element {
+        text-align: center;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+      }
+      .projects-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 7%;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .project_item_inline {
+        height: 420px;
+        width: 100%;
+        transition: all 0.4s ease-out;
+        background: rgba(18,18,18,.2);
+        margin: 6px;
+        display: flex;
+        border: 1.4px solid var(--nextui-colors-blue600);
+        border-radius: 12px;
+        flex-direction: column;
+        padding: 14px;
+        align-items: center;
+        justify-content: center;
+      }
+      .project_item_inline:hover {
+        transition: all 0.4s ease-out;
+      }
+      .project_item_inline p {
+        font-family: 'General Sans', sans-serif;
+        color: var(--nextui-colors-white);
+        height: 64px;
+      }
+      .project_item_inline svg {
+        width: 200px;
+        height: 90px;
+      }
+      .tech_stack_project_item {
+        border-bottom: 1.7px solid var(--nextui-colors-blue600);
+        border-top: 1.7px solid var(--nextui-colors-blue600);
+        margin: 7px 0;
+        width: 96%;
+        padding: 1px 0;
+      }
+      .tech_stack_project_item h3 {
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+        color: var(--nextui-colors-blue600);
+        font-weight: bold;
+      }
+      .visit-content_project {
+        margin-top: 30px;
+      }
+      .visit-content_project a  {
+        width: 330px;
+        font-size: 20px;
+        cursor: none;
+        border-radius: 7px;
+        min-width: 330px;
+        height: 55px;
+        font-size: 21px;
+        font-family: 'Chillax', sans-serif;
+      }
+      .project-extn_router {
+        color: var(--nextui-colors-white);
+        font-family: 'General Sans', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .project-extn_router:hover {
+        text-decoration: underline;
+      }
+      // THE END PROJECTS
+       // START WORKS
+
+       .extended-my-works-element {
+        margin-top: 7vh;
+        margin-bottom: 5vh;
+        text-align: center;
+      }
+      .selected-works_container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 4%;
+        justify-content: center;
+      }
+      .some-works_item {
+        background: rgba(18,18,18,.6);
+        margin: 6px;
+        width: 100%;
+        border-radius: 20px;
+        height: 310px;
+        padding: 10px 20px;
+      }
+      .some-works_item h1 {
+        color: var(--nextui-colors-white);
+        text-align: center;
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        padding-top: 10px;
+      }
+      .some-works_item a {
+        background: var(--nextui-colors-white);
+        font-family: 'General Sans', sans-serif;
+        font-weight: bold;
+        width: 310px;
+        min-width: 310px;
+        margin-top: 10px;
+        cursor: none;
+        height: 60px;
+        min-height: 60px;
+        font-size: 20px;
+        border-radius: 10px;
+        color: var(--var-color-component-primary);
+      }
+      .some-works_item h3 {
+        color: var(--nextui-colors-blue600);
+        text-align: center;
+        font-size: 25px;
+        height: 68px;
+        font-family: 'General Sans', sans-serif;
+      }
+      .some-works_item h1 svg {
+        vertical-align: middle;
+        font-size: 50px;
+        display: none;
+        margin-top: -6px;
+        color: var(--nextui-colors-blue600);
+        padding-right: 15px;
+      }
+     
+
+      // THE END WORKS
+         // FOOTER START
+         .extended-last-footer-element {
+          margin-top: 8vh;
+          text-align: center;
+        }
+        .extended-last-footer-element a {
+          font-family: 'General Sans', sans-serif;
+          font-weight: bold;
+          font-size: 24px;
+          padding: 10px 28px;
+          margin-bottom: 5vh;
+          cursor: none;
+          min-width: 200px;
+          width: 200px;
+          min-height: 65px;
+          height: 65px;
+        }
+        .extended-last-footer-element h1 {
+          margin: 1px 0;
+        }
+        .footer-prototype-content {
+          padding: 10px 4%;
+        }
+        .footer-prototype-content p {
+          color: var(--nextui-colors-white);
+          text-align: center;
+          font-size: 23px;
+          font-family: 'General Sans', sans-serif;
+        }
+        .creator-content_lastchild {
+          padding-top: 1vh;
+          color: var(--nextui-colors-white);
+          font-family: 'General Sans', sans-serif;
+          border-top: 1.2px solid var(--nextui-colors-white);
+        }
+        .creator-content_lastchild h2 {
+          color: var(--nextui-colors-white);
+          font-size: 21px;
+          font-family: 'General Sans', sans-serif;
+        }
+        .creator-content_lastchild h2 span {
+          font-weight: bold;
+          color: var(--nextui-colors-blue600);
+          font-size: 25px;
+        }
+        .creator-content_lastchild h3 {
+          font-family: 'General Sans', sans-serif;
+          color: var(--nextui-colors-white);
+          font-size: 20px;
+        }
+        // THE END FOOTER
+}
