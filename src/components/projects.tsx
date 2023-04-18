@@ -7,6 +7,7 @@ import QrSolidIcon from "@/icons/qr-solid";
 import MemegenIcon from "@/icons/memegen";
 import ExoWearIcon from "@/icons/exowear";
 import RegionfoIcon from "@/icons/reginfo";
+import SnaxIcon from "@/icons/snax";
 import WeatVibeIcon from "@/icons/weatvibe";
 
 export default function Projects() {
@@ -56,14 +57,14 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project_item_inline MjhPy_m6 RthPgF_3">
-                    <ExoWearIcon/>
-                    <a href="https://exowear.netlify.app/" target='_blank' className="project-extn_router gjHNH_5 gjhBn_r45">exowear.netlify.app</a>
-                    <Text>We use the finest materials and fabrics that are ethically produced. Our designs are inspired by the latest fashion trends.</Text>
+                    <SnaxIcon/>
+                    <a href="https://snaxstore.netlify.app/" target='_blank' className="project-extn_router gjHNH_5 gjhBn_r45">snaxstore.netlify.app</a>
+                    <Text>Get The Better Sneakers & Shoes with worldwide shipping in Snax Store.</Text>
                     <div className="tech_stack_project_item Mhrt-j4 Gtjy_7mv">
-                        <Text h3>ReactJS, Redux, SASS, Router</Text>
+                        <Text h3>ReactJS, Redux, Persist, Bootstrap</Text>
                     </div>
                     <div className="visit-content_project NG0rr_5mnv TrjgPf_7lk">
-                    <Button  as={Link} color="primary" href="https://exowear.netlify.app/" target="_blank">
+                    <Button  as={Link} color="primary" href="https://snaxstore.netlify.app/" target="_blank">
                     Visit Project
                     </Button>
                     </div>
