@@ -56,6 +56,19 @@ export default function Projects() {
                     </Button>
                     </div>
                 </div>
+                 <div className="project_item_inline MjhPy_m6 RthPgF_3">
+                    <SnaxIcon/>
+                    <a href="https://snaxstore.netlify.app/" target='_blank' className="project-extn_router gjHNH_5 gjhBn_r45">snaxstore.netlify.app</a>
+                    <Text>Get The Better Sneakers & Shoes with worldwide shipping in Snax Store.</Text>
+                    <div className="tech_stack_project_item Mhrt-j4 Gtjy_7mv">
+                        <Text h3>ReactJS, Redux, Persist, Bootstrap</Text>
+                    </div>
+                    <div className="visit-content_project NG0rr_5mnv TrjgPf_7lk">
+                    <Button  as={Link} color="primary" href="https://snaxstore.netlify.app/" target="_blank">
+                    Visit Project
+                    </Button>
+                    </div>
+                </div>
                 <div className="project_item_inline MjhPy_m6 RthPgF_3">
                     <SnaxIcon/>
                     <a href="https://snaxstore.netlify.app/" target='_blank' className="project-extn_router gjHNH_5 gjhBn_r45">snaxstore.netlify.app</a>
