@@ -8,7 +8,6 @@ import MemegenIcon from "@/icons/memegen";
 import ExoWearIcon from "@/icons/exowear";
 import RegionfoIcon from "@/icons/reginfo";
 import WeatVibeIcon from "@/icons/weatvibe";
-import StaxIcon from "@/icons/stax";
 
 export default function Projects() {
     return(
