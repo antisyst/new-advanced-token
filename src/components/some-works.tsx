@@ -36,6 +36,13 @@ export default function SomeWorks() {
                 View Project
             </Button>
                 </div>
+                  <div className="some-works_item gkrO-4_g6 rPgh_2">
+                    <Text h1><FaGlobe/>Calculator App</Text>
+                    <Text h3>VanillaJS, SASS</Text>
+                    <Button auto flat as={Link} href="https://rmzncalc.netlify.app" target="_blank">
+                View Project
+            </Button>
+                </div>
             </div>
         </div>
     )
