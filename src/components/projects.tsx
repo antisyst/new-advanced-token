@@ -9,6 +9,7 @@ import ExoWearIcon from "@/icons/exowear";
 import RegionfoIcon from "@/icons/reginfo";
 import SnaxIcon from "@/icons/snax";
 import NamestIcon from "@/icons/namest";
+import DatanLogo from "@/icons/datanlogo";
 import WeatVibeIcon from "@/icons/weatvibe";
 
 export default function Projects() {
@@ -63,6 +64,19 @@ export default function Projects() {
                     <Text>Get The Better Sneakers & Shoes with worldwide shipping in Snax Store.</Text>
                     <div className="tech_stack_project_item Mhrt-j4 Gtjy_7mv">
                         <Text h3>ReactJS, Redux, Persist, Bootstrap</Text>
+                    </div>
+                    <div className="visit-content_project NG0rr_5mnv TrjgPf_7lk">
+                    <Button  as={Link} color="primary" href="https://snaxstore.netlify.app/" target="_blank">
+                    Visit Project
+                    </Button>
+                    </div>
+                </div>
+                 <div className="project_item_inline MjhPy_m6 RthPgF_3">
+                    <DatanLogo/>
+                    <a href="http://datan.netlify.app/" target='_blank' className="project-extn_router gjHNH_5 gjhBn_r45">datan.netlify.app</a>
+                    <Text>Free encrypted messaging platform open to everyone.</Text>
+                    <div className="tech_stack_project_item Mhrt-j4 Gtjy_7mv">
+                        <Text h3>ReactJS, SASS, Firebase</Text>
                     </div>
                     <div className="visit-content_project NG0rr_5mnv TrjgPf_7lk">
                     <Button  as={Link} color="primary" href="https://snaxstore.netlify.app/" target="_blank">
