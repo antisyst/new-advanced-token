@@ -8,6 +8,7 @@ import MemegenIcon from "@/icons/memegen";
 import ExoWearIcon from "@/icons/exowear";
 import RegionfoIcon from "@/icons/reginfo";
 import SnaxIcon from "@/icons/snax";
+import NamestIcon from "@/icons/namest";
 import WeatVibeIcon from "@/icons/weatvibe";
 
 export default function Projects() {
@@ -75,6 +76,19 @@ export default function Projects() {
                     <Text>We use the finest materials and fabrics that are ethically produced. Our designs are inspired by the latest fashion trends.</Text>
                     <div className="tech_stack_project_item Mhrt-j4 Gtjy_7mv">
                         <Text h3>ReactJS, Redux, SASS, Router</Text>
+                    </div>
+                    <div className="visit-content_project NG0rr_5mnv TrjgPf_7lk">
+                    <Button  as={Link} color="primary" href="https://exowear.netlify.app/" target="_blank">
+                    Visit Project
+                    </Button>
+                    </div>
+                </div>
+                   <div className="project_item_inline MjhPy_m6 RthPgF_3">
+                    <NamestIcon/>
+                    <a href="https://namest.netlify.app/" target='_blank' className="project-extn_router gjHNH_5 gjhBn_r45">namest.netlify.app</a>
+                    <Text>Get Random Person Information so fast ( name, surname, country, age, email )</Text>
+                    <div className="tech_stack_project_item Mhrt-j4 Gtjy_7mv">
+                        <Text h3>ReactJS, TypeScript, SASS, API</Text>
                     </div>
                     <div className="visit-content_project NG0rr_5mnv TrjgPf_7lk">
                     <Button  as={Link} color="primary" href="https://exowear.netlify.app/" target="_blank">
