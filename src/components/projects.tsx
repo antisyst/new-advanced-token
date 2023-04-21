@@ -79,7 +79,7 @@ export default function Projects() {
                         <Text h3>ReactJS, SASS, Firebase</Text>
                     </div>
                     <div className="visit-content_project NG0rr_5mnv TrjgPf_7lk">
-                    <Button  as={Link} color="primary" href="https://snaxstore.netlify.app/" target="_blank">
+                    <Button  as={Link} color="primary" href="http://datan.netlify.app/" target="_blank">
                     Visit Project
                     </Button>
                     </div>
@@ -105,7 +105,7 @@ export default function Projects() {
                         <Text h3>ReactJS, TypeScript, SASS, API</Text>
                     </div>
                     <div className="visit-content_project NG0rr_5mnv TrjgPf_7lk">
-                    <Button  as={Link} color="primary" href="https://exowear.netlify.app/" target="_blank">
+                    <Button  as={Link} color="primary" href="https://namest.netlify.app/" target="_blank">
                     Visit Project
                     </Button>
                     </div>
